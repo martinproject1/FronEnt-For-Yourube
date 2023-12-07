@@ -1,0 +1,50 @@
+@import "../variabeles.scss";
+
+header {
+    min-height: 800px;
+    background-image: url("../../img/Header-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        min-height: 100px;
+
+        .nav__left {
+            svg {}
+        }
+
+        .nav__right {
+            display: flex;
+            align-items: center;
+            gap: 64px;
+
+            .nav__menu {
+                display: flex;
+                gap: 32px;
+                margin: 0;
+
+                li {
+                    list-style-type: none;
+
+                    a {
+                        display: block;
+                        text-decoration: none;
+                    }
+                }
+            }
+
+            .nav__lang {
+                display: flex;
+                gap: 16px;
+
+                a {
+                    display: block;
+                    text-decoration: none;
+                }
+            }
+        }
+
+    }
+}
